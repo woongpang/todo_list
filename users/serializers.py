@@ -23,5 +23,5 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         token["name"] = user.name
         token["gender"] = user.gender
         token["age"] = user.age
-        token["introduction"] = user.age
+        token["introduction"] = user.introduction
         return token
